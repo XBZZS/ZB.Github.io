@@ -1,0 +1,4 @@
+.section-box {
+  border: 1px solid #ccc; /* 添加一个1像素宽的边框，颜色为灰色 */
+  padding: 20px; /* 添加内边距以增加文本与边框之间的距离 */
+}

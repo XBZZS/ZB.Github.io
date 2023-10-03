@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('../photo/H7b32c966c9f94aeca6d6a0391834a215x.jpeg'); /* 替换为您的背景图像文件路径 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* 可以添加其他背景样式属性，如背景颜色或背景透明度 */
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8); /* 可以添加背景颜色以提高可读性 */
+  padding: 20px;
+  text-align: center;
+}
+
+
+.header,
+.section {
+  text-align: center;
+  max-width: 800px; /* 可根据需要调整最大宽度 */
+  margin: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.about, .products, .contact {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.login{
+  width: 550px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      to right bottom,
+      rgba(255,255,255,.7),
+      rgba(255,255,255,.5),
+      rgba(255,255,255,.4)
+  );
+  /* 使背景模糊化 */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.table{
+  font: 900 40px '';
+  text-align: center;
+  letter-spacing: 5px;
+  color: #3d3d3d;
+}
+
+.box{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.box input{
+  width: 400px;
+  height: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  border: 0;
+  padding: 10px;
+  background-color: transparent;
+  border-bottom: 3px solid rgb(39, 243, 198);
+  font: 900 16px '';
+}
+
+.go{
+  text-align: center;
+  display: block;
+  height: 24px;
+  padding: 12px;
+  font: 900 20px '';
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #fff;
+  letter-spacing: 3px;
+  background-image: linear-gradient(to left,
+  #79fdae,#a29bf6);
+}
+.text-highlight {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
